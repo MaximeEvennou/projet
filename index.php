@@ -94,7 +94,7 @@
         $(function(){
             $('.container').one("mouseenter",function(){
                 alert('Bienvenue sur mon site');
-                $(this).text('Oui moi aussi je ne comprends pas le latin').show().delay(5000).hide(2000); 
+                $(this).text('Oui moi aussi je ne comprends pas le latin').css({backgroundColor: "#FFF", color: "#000" }).show().delay(5000).hide(2000); 
             });
                        
        });
