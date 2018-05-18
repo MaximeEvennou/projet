@@ -89,5 +89,16 @@
         &copy; Created by J-C, Rachma & Maxime
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        $(function(){
+            $('.container').one("mouseenter",function(){
+                alert('Bienvenue sur mon site');
+                $(this).text('Oui moi aussi je ne comprends pas le latin').show().delay(5000).hide(2000); 
+            });
+                       
+       });
+    </script>
+
     </body>
 </html>
